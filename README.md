@@ -2,9 +2,9 @@
 
 We now know how to use conditionals. Now let's use conditionals to test our code for correctness. This is your first step towards how professional developers write software. Professional developers have to test their code for correctness. Instead of constantly clicking around their applications, most developers write additional code, called tests that ensure their code is outputting the right things. 
 
-We will eventually explain how to use the professional testing tools, but first let's go over a simple example.
+We will eventually explain how to use the professional testing tools but first, let's go over a simple example.
 
-After you open this lesson in the IDE, double click on `index.js`. You'll see some basic code:
+After you open this lesson in the IDE, double-click on `index.js`. You'll see some basic code:
 
 ```javascript
 var name = "Joe"
@@ -15,7 +15,7 @@ module.exports = { name, height
 }
 ```
 
-First of all, don't worry about the `module.exports` stuff right now, we'll get to that later. You've seen the rest of this stuff before but lets review. This assigns `"Joe"` to the `name` variable using the assignment operator (`=`). It also assigns `"74"` to `height`. Both `"Joe"` and `"74"` are Strings. We know that because they are wrapped in quotes. We have our code, but we don't have our tests. Let's write a test right below the `var height` line to check that `name` is equal to `"Susan"`. That should look something like this:
+First of all, don't worry about the `module.exports` stuff right now, we'll get to that later. You've seen the rest of this stuff before but let's review. This assigns `"Joe"` to the `name` variable using the assignment operator (`=`). It also assigns `"74"` to `height`. Both `"Joe"` and `"74"` are Strings. We know that because they are wrapped in quotes. We have our code, but we don't have our tests. Let's write a test right below the `var height = "74"` line to check that `name` is equal to `"Susan"`. That should look something like this:
 
 ```javascript
 if (name === "Susan") {
@@ -35,7 +35,7 @@ if (name === "Susan") {
 }
 ```
 
-See what we did there? Great! now run your code again by typing `nodejs index.js` in the terminal and you should get `Expected the name to be Susan` printed out. Let's fix our `name` variable to equal `Susan`. Modify the first line to say:
+See what we did there? Great! Now run your code again by typing `nodejs index.js` in the terminal and you should get `Expected the name to be Susan` printed out. Let's fix our `name` variable to equal `"Susan"`. Modify the first line to say:
 
 ```javascript
 var name = "Susan"
@@ -45,7 +45,7 @@ Re-run your code and boom! you did it :)
 
 ### Separating Tests from Application Code
 
-As you can probably imagine a large application will have many tests. Average sized applications will have thousands of tests. It gets a bit confusing to have both the application code mixed in with your test code. We want to separate them out so it's not a pain to sift through our files.
+As you can probably imagine a large application will have many tests. Average sized applications will have thousands of tests. It gets a bit confusing to have the application code mixed in with your test code. We want to separate them out so it's not a pain to sift through our files.
 
 Let's open up another javascript file and play around with separating things out. There is a blank JS file included in this lab called `other_file.js`. Double click on that and you'll see a blank file. Let's say we wanted to `console.log` the `name` variable from our `index.js` file. Seems fairly easy. Go ahead and type `console.log(name)`. Now let's run this new file by typing `nodejs other_file.js` in our terminal. BOOM! You'll get an error that looks like this:
 
@@ -73,7 +73,7 @@ The important line here is the `ReferenceError: name is not defined` line. That 
 var index = require("./index.js")
 ```
 
-This tells javascript to load the `index.js` file and put the it's contents inside of the `index` variable. That's a bit confusing, but it's fairly straight forward to use. To access the `name` variable in the `index` file we just need to type this in our `other_file.js`
+This tells javascript to load the `index.js` file and put its contents inside of the `index` variable. That's a bit confusing, but it's fairly straight forward to use. To access the `name` variable in the `index` file we just need to type this in our `other_file.js`
 
 ```javascript
 console.log(index.name)
