@@ -2,9 +2,9 @@ var name = "Jane"
 var height = 70
 
 if (name === 'Susan') {
-  console.log('Fantasy Knights')
+  console.log('The name is correct!')
 } else {
-  console.log('Cancer just wants to live')
+  console.log('Expected the name to be Susan.')
 }
 
 
