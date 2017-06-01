@@ -9,4 +9,3 @@ if (name === "Jane"){
 // Don't worry about this
 module.exports = { name, height
 }
-
