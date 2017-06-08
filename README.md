@@ -91,4 +91,4 @@ Expected: Jane, Received: Joe
 Expected: 70, Received: 74
 ```
 
-Now it's your job to modify `index.js` so that when you run `tests.js` it says you got both `height` and `name`. **One note: Capitalization matters and String vs. Numbers matter. Numbers don't have any quotes around them, Strings do have quotes around them!** 
+Now it's your job to modify `index.js` so that when you run `tests.js` it says you got both `height` and `name`. **One note: Capitalization matters and String vs. Numbers matter. Numbers don't have any quotes around them, Strings do have quotes around them!**
