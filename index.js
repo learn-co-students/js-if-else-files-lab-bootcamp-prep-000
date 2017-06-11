@@ -1,4 +1,4 @@
-var name = "Jame"
+var name = "Jane"
 var height = parseInt("70")
 
 if (name === "Susan") {
