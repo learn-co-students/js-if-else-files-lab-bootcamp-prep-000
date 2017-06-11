@@ -1,11 +1,10 @@
 var index = require("./index.js")
 
-if (index.name === "Jane") {
+if (index.name === "Susasn") {
     console.log("The name is correct")
 } else {
     console.log("Expected: Jane, Received: "+index.name)
 }
-
 
 
 if (index.height === 70) {
