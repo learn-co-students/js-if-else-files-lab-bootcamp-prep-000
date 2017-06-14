@@ -1,6 +1,6 @@
 # Using Conditionals and Multiple Files in JS
 
-We now know how to use conditionals. Now let's use conditionals to test our code for correctness. This is your first step towards how professional developers write software. Professional developers have to test their code for correctness. Instead of constantly clicking around their applications, most developers write additional code, called tests that ensure their code is outputting the right things. 
+We now know how to use conditionals. Now let's use conditionals to test our code for correctness. This is your first step towards how professional developers write software. Professional developers have to test their code for correctness. Instead of constantly clicking around their applications, most developers write additional code, called tests that ensure their code is outputting the right things.
 
 We will eventually explain how to use the professional testing tools but first, let's go over a simple example.
 
@@ -53,7 +53,7 @@ Let's open up another javascript file and play around with separating things out
 /home/jmburges/code/labs/js-functions-lab/test.js:1                                     
 (function (exports, require, module, __filename, __dirname) { console.log(name)         
                                                                           ^             
-                                                                                        
+
 ReferenceError: name is not defined                                                     
     at Object.<anonymous> (/home/jmburges/code/labs/js-functions-lab/test.js:1:75)      
     at Module._compile (module.js:570:32)                                               
@@ -86,9 +86,9 @@ Give that a run by typing `nodejs other_file.js` and you should see the name get
 
 You now know how multiple files interact as well as how `if` statements work. Now you have to write your code to match some specific tests. Open up `tests.js` and you will see two `if` statements. Let's give this a run to start things off by typing `nodejs tests.js`. You should get two messages:
 
-````
+```
 Expected: Jane, Received: Joe
 Expected: 70, Received: 74
 ```
 
-Now it's your job to modify `index.js` so that when you run `tests.js` it says you got both `height` and `name`. **One note: Capitalization matters and String vs. Numbers matter. Numbers don't have any quotes around them, Strings do have quotes around them!** 
+Now it's your job to modify `index.js` so that when you run `tests.js` it says you got both `height` and `name`. **One note: Capitalization matters and String vs. Numbers matter. Numbers don't have any quotes around them, Strings do have quotes around them!**
