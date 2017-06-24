@@ -1,4 +1,4 @@
-var name = "Joe"
+var name = "Susan"
 var height = "74"
 
 
@@ -6,3 +6,4 @@ var height = "74"
 module.exports = { name, height
 }
 
+console.log(name, height)
