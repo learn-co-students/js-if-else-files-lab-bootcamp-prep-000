@@ -67,15 +67,17 @@ ReferenceError: name is not defined
     at bootstrap_node.js:508:3       
 ```
 
-The important line here is the `ReferenceError: name is not defined` line. That says that our `name` variable doesn't exist in the `other_file.js` file. That makes sense. In `other_file.js` we never write the line of code to create `name`. We have the line `var name = "Susan"` in `index.js`. We need to tell `other_file.js` about the existence of `index.js`! Let's do that by pasting the following line of code into your `other_file.js` file:
+The important line here is the `ReferenceError: name is not defined` line. That says that our `name` variable doesn't exist in the `other_file.js` file. That makes sense. In `other_file.js` we never write the line of code to create `name`. We have the line `var name = "Susan"` in `index.js`. We need to tell `other_file.js` about the existence of `index.js`! Let's do that by replacing the contents of `other_file.js` with the following line of code:
 
 ```javascript
 var index = require("./index.js")
 ```
 
-This tells javascript to load the `index.js` file and put its contents inside of the `index` variable. That's a bit confusing, but it's fairly straight forward to use. To access the `name` variable in the `index` file we just need to type this in our `other_file.js`
+This tells javascript to load the `index.js` file and put its contents inside of the `index` variable within `other_file.js`. That's a bit confusing, but it's fairly straight forward to use. Thanks to `require()`, we now have access to the variables we exported from `index.js`, including `name`. To access `name` within `other_file.js`, we can simply refer to the `name` property of the `index` variable, which, again, is where we used `require()` to store the contents of `index.js`. Let's add the following line to `other_file.js`:
 
 ```javascript
+var index = require("./index.js")
+
 console.log(index.name)
 ```
 
@@ -86,7 +88,7 @@ Give that a run by typing `nodejs other_file.js` and you should see the name get
 
 You now know how multiple files interact as well as how `if` statements work. Now you have to write your code to match some specific tests. Open up `tests.js` and you will see two `if` statements. Let's give this a run to start things off by typing `nodejs tests.js`. You should get two messages:
 
-````
+```
 Expected: Jane, Received: Joe
 Expected: 70, Received: 74
 ```
