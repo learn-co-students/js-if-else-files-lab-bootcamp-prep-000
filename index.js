@@ -1,6 +1,6 @@
 var name = "joe"
 
-if (name === 'Susan'){
+if (name === 'Jane'){
   console.log("The name is correct")
 }else {
   console.log('Expected the name to be Susan')
