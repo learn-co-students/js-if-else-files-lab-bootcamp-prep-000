@@ -1,8 +1,12 @@
-var name = "Joe"
-var height = "74"
-
+var name = "Jane"
+var height = "70"
+height = parseInt(height)
+if(name==="Susan"){
+  console.log("The name is correct")
+} else {
+  console.log("Expected name to be 'Susan'")
+}
 
 // Don't worry about this
 module.exports = { name, height
 }
-

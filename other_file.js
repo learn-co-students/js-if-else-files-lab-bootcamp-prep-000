@@ -1,1 +1,2 @@
-console.log(name)
+var monkey = require("./index.js")
+console.log(monkey.name)
