@@ -89,7 +89,7 @@ Give that a run by typing `nodejs other_file.js` and you should see the name get
 You now know how multiple files interact as well as how `if` statements work. Now you have to write your code to match some specific tests. Open up `tests.js` and you will see two `if` statements. Let's give this a run to start things off by typing `nodejs tests.js`. You should get two messages:
 
 ```
-Expected: Jane, Received: Joe
+Expected: Susan, Received: Joe
 Expected: 70, Received: 74
 ```
 
