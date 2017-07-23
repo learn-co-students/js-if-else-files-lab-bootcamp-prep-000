@@ -6,7 +6,7 @@ if (name === "Susan") {
 } else {
     console.log("Expected the name to be Susan")
 }
-console.log("is this printing anyway")
+console.log("If this prints, then it is from index.js")
 
 // Don't worry about this
 module.exports = { name, height
