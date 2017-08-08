@@ -8,6 +8,7 @@ if (name = "Susan") {
 }
 
 // I'm a comment!
+// I'm a comment2!
 
 // Don't worry about thisw
 module.exports = { name, height
