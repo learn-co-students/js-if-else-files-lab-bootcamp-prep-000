@@ -1,1 +1,2 @@
-console.log(name)
+var Sindex =require("./index.js");
+console.log(Sindex.name);
