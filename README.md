@@ -1,6 +1,6 @@
 # Using Conditionals and Multiple Files in JS
 
-We now know how to use conditionals. Now let's use conditionals to test our code for correctness. This is your first step towards how professional developers write software. Professional developers have to test their code for correctness. Instead of constantly clicking around their applications, most developers write additional code, called tests that ensure their code is outputting the right things. 
+We now know how to use conditionals. Now let's use conditionals to test our code for correctness. This is your first step towards how professional developers write software. Professional developers have to test their code for correctness. Instead of constantly clicking around their applications, most developers write additional code, called tests that ensure their code is outputting the right things.
 
 We will eventually explain how to use the professional testing tools but first, let's go over a simple example.
 
@@ -23,9 +23,9 @@ if (name === "Susan") {
 }
 ```
 
-Write that, and then run your `index.js` file with a `nodejs index.js` in the terminal. You'll see nothing printed out. That's because our `name` variable doesn't equal `"Susan"`. Let's put in an `else` statement that prints `"Expected the name to be Susan"`. Give it a try on your own.
+Write that, and then run your `index.js` file with a `` in the terminal. You'll see nothing printed out. That's because our `name` variable doesn't equal `"Susan"`. Let's put in an `else` statement that prints `"Expected the name to be Susan"`. Give it a try on your own.
 
-OK, you gave it a try, now let's look at the solution:
+OK, you gave it a try, now let's look at the solutions
 
 ```javascript
 if (name === "Susan") {
@@ -53,7 +53,7 @@ Let's open up another javascript file and play around with separating things out
 /home/jmburges/code/labs/js-functions-lab/test.js:1                                     
 (function (exports, require, module, __filename, __dirname) { console.log(name)         
                                                                           ^             
-                                                                                        
+
 ReferenceError: name is not defined                                                     
     at Object.<anonymous> (/home/jmburges/code/labs/js-functions-lab/test.js:1:75)      
     at Module._compile (module.js:570:32)                                               
@@ -93,4 +93,4 @@ Expected: Susan, Received: Joe
 Expected: 70, Received: 74
 ```
 
-Now it's your job to modify `index.js` so that when you run `tests.js` it says you got both `height` and `name`. **One note: Capitalization matters and String vs. Numbers matter. Numbers don't have any quotes around them, Strings do have quotes around them!** 
+Now it's your job to modify `index.js` so that when you run `tests.js` it says you got both `height` and `name`. **One note: Capitalization matters and String vs. Numbers matter. Numbers don't have any quotes around them, Strings do have quotes around them!**
