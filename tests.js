@@ -13,3 +13,9 @@ if (index.height === 70) {
 } else {
     console.log("Expected: 70, Received: "+index.height)
 }
+
+if (index.name === "Susan" && index.height === 70) {
+  console.log ("The name and height is correct")
+} else {
+    console.log("Expected: Susan 70; Received: "+index.name, +index.height)
+}
