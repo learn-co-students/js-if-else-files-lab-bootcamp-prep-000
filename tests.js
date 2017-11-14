@@ -16,5 +16,5 @@ if (index.height === 74) {
 
   
 } else {
-    console.log("height: 70, height: 74") +index.height
+    console.log("height: 70, height: 74,") +index.height
 }
