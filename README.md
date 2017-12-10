@@ -1,4 +1,4 @@
-# Using Conditionals and Multiple Files in JS
+.# Using Conditionals and Multiple Files in JS
 
 We now know how to use conditionals. Now let's use conditionals to test our code for correctness. This is your first step towards how professional developers write software. Professional developers have to test their code for correctness. Instead of constantly clicking around their applications, most developers write additional code, called tests that ensure their code is outputting the right things. 
 
