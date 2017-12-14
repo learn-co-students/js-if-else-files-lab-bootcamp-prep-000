@@ -3,4 +3,4 @@
 
 //let's define the name variable...
 var index = require("./index.js")
- console.log(index.name) //need to refer to name property of it..
+console.log(index.name) //need to refer to name property of it..
