@@ -41,7 +41,9 @@ See what we did there? Great! Now run your code again by typing `nodejs index.js
 var name = "Susan"
 ```
 
-Re-run your code and boom! you did it :) In later steps, we'll be doing our testing in other files. For now, let's revert index.js to its original state. Make sure the index.js file is saved and that it looks like this:
+Re-run your code and boom! you did it :) 
+
+In later steps, we'll be doing our testing in other files. So, for now, let's revert index.js to its original state. Make sure the index.js file is saved and that it looks like this:
 
 ```
 var name = "Joe"
