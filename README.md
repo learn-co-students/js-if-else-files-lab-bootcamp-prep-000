@@ -41,7 +41,18 @@ See what we did there? Great! Now run your code again by typing `nodejs index.js
 var name = "Susan"
 ```
 
-Re-run your code and boom! you did it :)
+Re-run your code and boom! you did it :) 
+
+In later steps, we'll be doing our testing in other files. So, for now, let's revert index.js to its original state. Make sure the index.js file is saved and that it looks like this:
+
+```
+var name = "Joe"
+var height = "74"
+
+// Don't worry about this
+module.exports = { name, height
+}
+```
 
 ### Separating Tests from Application Code
 
@@ -93,4 +104,9 @@ Expected: Susan, Received: Joe
 Expected: 70, Received: 74
 ```
 
-Now it's your job to modify `index.js` so that when you run `tests.js` it says you got both `height` and `name`. **One note: Capitalization matters and String vs. Numbers matter. Numbers don't have any quotes around them, Strings do have quotes around them!** 
+Now it's your job to modify `index.js` so that when you run `nodejs tests.js` the messages you see logged to the console are:
+```
+The name is correct 
+The height is correct
+```
+**One note: Capitalization matters and String vs. Numbers matter. Numbers don't have any quotes around them, Strings do have quotes around them!** 
