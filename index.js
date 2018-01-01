@@ -1,4 +1,5 @@
-var name = "Joe";
-var height = "74";
-
-module.export = { name, height };
+var name = "Susan";
+var height = 70;
+ 
+//exportinfo
+module.exports = { name, height };
