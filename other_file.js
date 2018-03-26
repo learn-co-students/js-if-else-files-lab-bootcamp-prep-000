@@ -1,1 +1,2 @@
-console.log(name)
+var steven=require("./index.js")
+console.log(steven.name)
