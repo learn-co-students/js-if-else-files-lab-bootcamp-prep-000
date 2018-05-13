@@ -1,0 +1,7 @@
+var weather = "41"
+
+if (weather < 60){
+console.log("Bring your Jacket")
+}else{
+console.log("The weather is not too cold")
+}
