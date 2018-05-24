@@ -38,7 +38,11 @@ if (name === "Susan") {
 See what we did there? Great! Now run your code again by typing `nodejs index.js` in the terminal and you should get `Expected the name to be Susan` printed out. Let's fix our `name` variable to equal `"Susan"`. Modify the first line to say:
 
 ```javascript
-var name = "Susan"
+if (name === "Susan") {
+    console.log("The name is correct")
+} else {
+    console.log("Expected the name to be Susan")
+}
 ```
 
 Re-run your code and boom! you did it :) 
