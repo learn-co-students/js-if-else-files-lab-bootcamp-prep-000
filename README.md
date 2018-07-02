@@ -7,7 +7,7 @@ We will eventually explain how to use the professional testing tools but first, 
 After you open this lesson in the IDE, double-click on `index.js`. You'll see some basic code:
 
 ```javascript
-var name = "Joe"
+var name = "Susan"
 var height = "74"
 
 // Don't worry about this
@@ -20,7 +20,10 @@ First of all, don't worry about the `module.exports` stuff right now, we'll get 
 ```javascript
 if (name === "Susan") {
     console.log("The name is correct")
+} else {
+  console.log("Expected the name to be Susan")
 }
+
 ```
 
 Write that, and then run your `index.js` file with a `nodejs index.js` in the terminal. You'll see nothing printed out. That's because our `name` variable doesn't equal `"Susan"`. Let's put in an `else` statement that prints `"Expected the name to be Susan"`. Give it a try on your own.
