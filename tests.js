@@ -1,5 +1,5 @@
 var index = require("./index.js")
-
+index.height = parseInt(index.height)
 if (index.name === "Susan") {
     console.log("The name is correct")
 } else {
