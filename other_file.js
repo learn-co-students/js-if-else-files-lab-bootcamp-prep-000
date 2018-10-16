@@ -1,1 +1,5 @@
-console.log(name)
+console.log("name")
+console.log(index.name)
+console.log("height")
+console.log(index.height)
+var index = require("./index.js")
