@@ -78,7 +78,7 @@ ReferenceError: name is not defined
     at bootstrap_node.js:508:3       
 ```
 
-The important line here is the `ReferenceError: name is not defined` line. That says that our `name` variable doesn't exist in the `other_file.js` file. That makes sense. In `other_file.js` we never write the line of code to create `name`. We have the line `var name = "Susan"` in `index.js`. We need to tell `other_file.js` about the existence of `index.js`! Let's do that by replacing the contents of `other_file.js` with the following line of code:
+The important line here is the `ReferenceError: name is not defined` line. That says that our `name` variable doesn't exist in the `other_file.js` file. That makes sense. In `other_file.js` we never wrote the line of code to create `name`. We have the line `var name = "Susan"` in `index.js`. We need to tell `other_file.js` about the existence of `index.js`! Let's do that by replacing the contents of `other_file.js` with the following line of code:
 
 ```javascript
 var index = require("./index.js")
