@@ -1,4 +1,4 @@
-var index = require("./index.js")
+nodejs tests.jsvar index = require("./index.js")
 
 if (index.name === "Susan") {
     console.log("The name is correct")
@@ -8,8 +8,8 @@ if (index.name === "Susan") {
 
 
 
-if (index.height === 70) {
+if (index.height === 74) {
     console.log("The height is correct")
 } else {
-    console.log("Expected: 70, Received: "+index.height)
+    console.log("Expected: 74, Received: "+index.height)
 }
