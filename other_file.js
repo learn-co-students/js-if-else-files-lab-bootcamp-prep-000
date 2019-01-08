@@ -1,1 +1,6 @@
-console.log(name)
+//console.log(name)
+//this won't work because you need the name variable defined...
+
+//let's define the name variable...
+var index = require("./index.js")
+console.log(index.name) //need to refer to name property of it..
