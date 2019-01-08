@@ -1,4 +1,4 @@
-var index = require("./index.js")
+var index = require("./index.js") //'link' to another file.  loads the file into variable 'index'
 
 if (index.name === "Susan") {
     console.log("The name is correct")
