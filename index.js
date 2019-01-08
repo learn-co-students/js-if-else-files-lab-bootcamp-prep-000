@@ -1,8 +1,9 @@
-var name = "Joe"
-var height = "74"
+var name = "janet"
+var height = 77
 
+console.log("Name:")
+console.log(name)
 
-// Don't worry about this
-module.exports = { name, height
-}
-
+console.log("Height:")
+console.log(height)
+console.log(height+1)
