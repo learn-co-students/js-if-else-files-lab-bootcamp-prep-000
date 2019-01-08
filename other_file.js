@@ -1,1 +1,3 @@
-console.log(name)
+va = index require("./index.js")
+
+console.log(index.name)
