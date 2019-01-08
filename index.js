@@ -1,8 +1,7 @@
-var name = "Joe"
+var name = "Janet"
 var height = "74"
+console.log("Janet:")
+console.log(name)
 
-
-// Don't worry about this
-module.exports = { name, height
-}
-
+console.log("74:")
+console.log(parseInt(height) + 1 )
