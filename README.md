@@ -19,7 +19,7 @@ First of all, don't worry about the `module.exports` stuff right now, we'll get 
 
 ```javascript
 if (name === "Susan") {
-    console.log("The name is correct")
+  console.log("The name is correct")
 }
 ```
 
@@ -34,6 +34,7 @@ if (name === "Susan") {
     console.log("Expected the name to be Susan")
 }
 ```
+
 
 See what we did there? Great! Now run your code again by typing `nodejs index.js` in the terminal and you should get `Expected the name to be Susan` printed out. Let's fix our `name` variable to equal `"Susan"`. Modify the first line to say:
 
