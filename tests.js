@@ -13,3 +13,6 @@ if (index.height === 70) {
 } else {
     console.log("Expected: 70, Received: "+index.height)
 }
+var index = require("./index.js")
+
+console.log(index.name)
