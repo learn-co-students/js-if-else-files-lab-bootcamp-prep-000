@@ -7,7 +7,7 @@ We will eventually explain how to use the professional testing tools but first, 
 After you open this lesson in the IDE, double-click on `index.js`. You'll see some basic code:
 
 ```javascript
-var name = "Joe"
+var name1 = "Joe"
 var height = "74"
 
 // Don't worry about this
