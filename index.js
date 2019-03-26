@@ -1,12 +1,11 @@
-var name = "Joe";
+var name = "Joe"; 
 var height = "74";
-If (name === "Susan"); {
+ module.exports = name,height ;
+ 
+If (name === "Joe"); {
   console.log ("The name is correct");
 }
-
-module.exports = (name, height { 
+``` Java Script```;
+ If ( name === "Susan");
+   console.log ("expeccted the name to be Susan");
 }
-else  { 
-  console.log("Expected the name to be Susan"); 
-}
-var name = "Susan";
