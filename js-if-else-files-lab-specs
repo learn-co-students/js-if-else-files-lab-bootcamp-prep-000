@@ -1,0 +1,8 @@
+var name = "Joe"{ 
+  console.log("The name is correct");
+var height = "74"
+  console.log (The weight is correct"); 
+}
+if name === "Susan" {
+  console.log ("Expected name is Susan");
+  }

@@ -1,5 +1,5 @@
-var (name = "Joe");{
-var height - "74";
+var name = "Joe";{
+var height = "74";
 }
 if (index.name === "Joe") {
     console.log("The name is correct");
