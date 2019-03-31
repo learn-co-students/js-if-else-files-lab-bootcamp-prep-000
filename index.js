@@ -1,5 +1,5 @@
-if (name ==="Susan")
 var name = "Joe";
+if (name ==="Susan")
 var height = "74";
 
 
