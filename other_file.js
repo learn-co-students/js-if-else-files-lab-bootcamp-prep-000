@@ -1,1 +1,3 @@
-console.log(name)
+var holding = require("./index.js")
+
+console.log(holding.name)
