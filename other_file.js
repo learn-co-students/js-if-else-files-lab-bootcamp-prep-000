@@ -1,1 +1,3 @@
-console.log(name)
+const index = require("./index.js")
+
+console.log(index.name)
