@@ -1,5 +1,5 @@
-var name = "Joe"
-var height = "74"
+let name = "Susan"
+let height = 70
 
 
 // Don't worry about this
