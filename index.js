@@ -1,5 +1,11 @@
-var name = "Joe"
-var height = "74"
+var name = "Susan"
+var height = 70
+var tests = require('./tests.js')
+console.log('tests.name')
+
+
+
+
 
 
 // Don't worry about this
