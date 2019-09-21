@@ -1,8 +1,3 @@
-var name = "Joe"
-var height = "74"
-
-
-// Don't worry about this
-module.exports = { name, height
-}
+"The name is correct"
+"The height is correct"
 
