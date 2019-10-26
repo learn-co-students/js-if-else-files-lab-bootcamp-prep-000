@@ -6,3 +6,6 @@ var height = "74"
 module.exports = { name, height
 }
 
+var index = require('./index.js')
+
+console.log(index.name)
