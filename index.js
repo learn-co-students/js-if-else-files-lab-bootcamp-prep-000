@@ -1,5 +1,8 @@
-var name = "Joe"
-var height = "74"
+var name = "Susan";
+var height = "70";
+parseInt(height);
+height = parseInt(height);
+
 
 
 // Don't worry about this
