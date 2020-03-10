@@ -55,7 +55,7 @@ OK, you gave it a try, now let's look at the solution:
 if (name === "Susan") {
     console.log("The name is correct")
 } else {
-    console.log("Expected the name to be Susan")
+    console.log("Expected the name to be Sus
 }
 ```
 
